@@ -11,6 +11,7 @@ console.log("Taha")
 let name = "hitesh"
 let age = 18
 let isLoggedIn = false
+let city = null
 let state
 
 // number => 2 to power 53
@@ -24,5 +25,11 @@ let state
 
 // object
 
-console.log(typeof isLoggedIn); // undefined
-console.log(typeof state); // object
+console.log(typeof name); // string
+console.log(typeof age); // number
+console.log(typeof isLoggedIn); // boolean
+console.log(typeof state); // undefined
+console.log(typeof city); // object
+
+// When we check the type of undefined it gives undefined
+// When we check the type of null it gives an object
