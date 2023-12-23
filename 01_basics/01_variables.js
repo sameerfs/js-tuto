@@ -1,3 +1,6 @@
+// Variables
+// In JavaScript, there are three different variable types: var, let, and const.
+
 const accountId = 1278
 let accountEmail = "Taha@gmail.com"
 var accountPassword = 12345

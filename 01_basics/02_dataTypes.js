@@ -8,6 +8,14 @@ console.log(3
 
 console.log("Taha")
 
+// DataTypes
+// JavaScript has seven built-in types:
+// null , undefined , boolean , number , string , object , and symbol.
+// They can be identified by the typeof operator. Variables don't have types, but the values in them do
+
+// When we check the type of undefined it gives undefined
+// When we check the type of null it gives an object
+
 let name = "hitesh"
 let age = 18
 let isLoggedIn = false
