@@ -75,7 +75,3 @@ function returnSecondValue(getArr) {
 
 // console.log(returnSecondValue(myNewArr));
 console.log(returnSecondValue([100, 200, 400]));
-
-
-
-
