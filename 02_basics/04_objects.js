@@ -55,11 +55,47 @@ users = [
 // console.log(users[2].name); //ayesha
 
 //get objects keys
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 //check propery is present or not
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //true
-console.log(tinderUser.hasOwnProperty('isLogged')); //fasle
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //true
+// console.log(tinderUser.hasOwnProperty('isLogged')); //fasle
+
+//objects de structured
+const course = {
+    courseName: "JS in Hndi",
+    price: "Free",
+    CourseInstructor: "Hitesh"
+}
+
+// console.log(course.CourseInstructor);
+const {CourseInstructor} = course
+console.log(CourseInstructor);
+
+const {CourseInstructor: instructor} = course
+console.log(instructor);
+
+// API intro
+// https://api.github.com/users/hiteshchoudhary
+
+//one api sample 
+// https://randomuser.me/
+
+//formating api 
+https://jsonformatter.org/
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
 
